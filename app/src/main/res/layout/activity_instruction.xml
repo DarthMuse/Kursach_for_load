@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#3C2FB2"
+    tools:context=".Instruction">
+
+    <Button
+        android:id="@+id/buttonBackGlobalWindows"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="onButtonClickMaintWindow"
+        android:text="Вернуться на начальный экран"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.496"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.95" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="394dp"
+        android:layout_height="593dp"
+        android:gravity="fill_horizontal"
+        android:text="    Время надо вводить не разделяя часы и минуты. Пример: 1215, где 12 - часов и 15 минут.\n\n     Правильная последовательность дейсвий - это сначала настроить доп. параметры, а после уже время первых пар.\n\n    В расписании МГТУ для корректной работы необходимо ввести время для обеих недель, поочередно, меняя выбранную и запонимая введенное время кнокой &quot;запомнить&quot;.\n\n     Смена недели меняет будильники с ЧС на ЗН или наоборот."
+        android:textColor="#F1D90B"
+        android:textSize="22sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.466"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.115" />
+</androidx.constraintlayout.widget.ConstraintLayout>
